@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>3db</title>
+<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1">
+<link rel="stylesheet" href="style.css" type="text/css">
+<script src="util.js"></script>
+<script src="3db.js"></script>
+</head>
+
+<body>
+<!-- body onload="renderproteins()" -->
+<h1 align="center">Database Project</h1>
+
+<h4 align="center" style="color:Gray;">@Bowen Yang</h4>
+
+<div id="search" style="float:center;"><P>Search: <input size="20" onchange="change(this);" onkeyup="keypress(this,event);" autofocus /></P></div>
+
+
+<h2 align='center'>
+<A href= javascript::void(0);" style="color:SlateBlue;" onclick="rendersnp()" >SNP</A>
+<A href= javascript::void(0);" style="color:Violet;" onclick="renderproteins()">Protein</A>
+<A href= javascript::void(0);" style="color:Tomato;" onclick="renderdisease()">Disease</A>
+</h2>
+<p align="center">
+This is a demo, some functions need to wait patiently.
+</p>
+
+<div id="container"/>
+</body>
+</html>
